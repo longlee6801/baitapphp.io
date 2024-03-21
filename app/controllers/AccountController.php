@@ -105,7 +105,7 @@ class AccountController
     function updateUserRole($email, $role){
         // Gọi phương thức của model để cập nhật quyền
         $result = $this->accountModel->updateUserRole($email, $role);
-        
+
         if ($result) {
             return true;
         } else {

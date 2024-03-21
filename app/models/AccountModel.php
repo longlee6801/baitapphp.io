@@ -60,6 +60,7 @@ class AccountModel{
         return false;
     }
     function updateUserRole($email, $role){
+        $getid = $this->getRoleByName($role)->idrole;
         $query = "UPDATE " . $this->table_name . " SET role = :role WHERE email = :email";
         $stmt = $this->conn->prepare($query);
         $stmt->bindParam(':email', $email);
