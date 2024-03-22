@@ -6,7 +6,7 @@
         <h5>Social Media</h5>
         <ul class="list-unstyled">
             <li><a href="https://www.facebook.com/Longlee.me" style="color: White;" target="_blank">Facebook</a></li>
-            <li><a href="https://github.com/" style="color: White;" target="_blank">Github</a></li>
+            <li><a href="https://github.com/longlee6801/baitapphp.io" style="color: White;" target="_blank">Github</a></li>
             <li><a href="https://www.instagram.com/longthichhat/" style="color: White;" target="_blank">Instagram</a></li>
             <li><a href="#" style="color: White;">LinkedIn</a></li>
         </ul>
